@@ -1,0 +1,35 @@
+name = "ArmaForces Mods Settings"
+prefix = "afms"
+author = "ArmaForces"
+files = [
+    "LICENSE",
+    "mod.cpp",
+    "README.md"
+]
+
+exclude = ["*.psd", "*.png", "*.tga"]
+
+modname = "armaforces_mods_settings"
+keyname = "armaforces_mods_settings_{{version}}"
+signame = "armaforces_mods_settings_{{version}}"
+
+releasebuild = [
+    "!Set_version",
+    "@zip",
+]
+
+# HEMTT >= 0.7, this version has issues with Signing on linux so we're staying on 0.6 for now.
+#[header_exts]
+#version = "{{git \"id 8\"}}"
+headerexts = [
+    "version={{git \"id 8\"}}"
+]
+
+[scripts.Set_version]
+    steps_windows = [
+        "powershell ./tools/Set-Version.ps1 {{version}} '@armaforces_mods_settings'"
+    ]
+    steps_linux = [
+        "sed -i 's/0.0.0/{{version}}/' ./releases/{{version}}/@armaforces_mods_settings/mod.cpp"
+    ]
+    # show_output = true

@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build_addon:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set VERSION env
+      # run: echo VERSION=${GITHUB_REF:11} >> $GITHUB_ENV
+      run: echo VERSION=0.0.0 >> $GITHUB_ENV
+
+    - uses: actions/checkout@v2
+
+    - name: Build addon with HEMTT
+      uses: 16AAModTeam/hemtt@stable
+      with:
+        command: 'build --release'
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: releases
+        path: releases/
+        if-no-files-found: error
+        retention-days: 7
+
+  release_addon:
+    runs-on: ubuntu-latest
+    needs: build_addon
+    steps:
+    - name: Set VERSION env
+      run: echo VERSION=0.0.0 >> $GITHUB_ENV
+
+    - uses: actions/download-artifact@v2
+      with:
+        name: releases
+
+    # Upload to Steam Workshop
+    - uses: arma-actions/workshop-upload@v1
+      with:
+        itemId: ${{ secrets.MOD_ID }} # Id of item to update
+        contentPath: '${{ env.VERSION }}/@armaforces_mods_settings'
+        changelog: 'https://github.com/ArmaForces/ModsSettings/commit/${{ github.sha }}'
+      env:
+        STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+        STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
