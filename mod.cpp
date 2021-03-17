@@ -1,0 +1,11 @@
+name = "ArmaForces Mods Settings - 0.0.0";
+dir = "@armaforces_mods_settings";
+author = "ArmaForces";
+url = "https://github.com/ArmaForces/ModsSettings/";
+action = "https://armaforces.com/";
+actionName = "Website";
+logo = "\z\afms\addons\main\ui\logo_sm_ca.paa";
+logoOver = "\z\afms\addons\main\ui\logo_sm_ca.paa";
+overviewPicture = "\z\afms\addons\main\ui\logo_sm_ca.paa";
+tooltip = "ArmaForces Mods Settings";
+description = "ArmaForces in-house mods developed by community members.";
