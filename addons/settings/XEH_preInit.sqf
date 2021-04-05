@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 ADDON = false;
 
-// if (!isDedicated) exitWith {};
+if (!isDedicated) exitWith {};
 
 if (!isNil "CBA_settings") exitWith {
     private _msg = "[ArmaForces] (settings) ERROR: Executed after CBA Settings init! Server settings will be not set properly!";
@@ -12,7 +12,7 @@ if (!isNil "CBA_settings") exitWith {
 INFO_1("Loading server settings from %1",QPATHTOF(cba_settings.sqf));
 
 LOG("Building default CBA Settings hash");
-private _settingsHash = HASH_NULL;
+private _settingsHash = [] call CBA_fnc_hashCreate;
 private _defaultSettings = [loadFile QPATHTOF(cba_settings.sqf), false] call compileScript ["\x\cba\addons\settings\fnc_parse.sqf"];
 {
     _x params ["_setting", "_value", "_priority"];
