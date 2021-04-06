@@ -105,3 +105,15 @@ acex_headless_enabled = true;
 
 // ACEX Sitting
 acex_sitting_enable = true;
+
+// ACRE2
+acre_sys_core_automaticAntennaDirection = true;
+acre_sys_core_fullDuplex = true;
+acre_sys_core_ignoreAntennaDirection = true;
+acre_sys_core_interference = true;
+acre_sys_core_revealToAI = 0.5;
+acre_sys_core_terrainLoss = 0.25;
+acre_sys_core_ts3ChannelName = "Gramy";
+acre_sys_core_ts3ChannelSwitch = true;
+acre_sys_core_unmuteClients = true;
+acre_sys_signal_signalModel = 0;
