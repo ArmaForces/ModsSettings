@@ -222,3 +222,14 @@ force diwako_dui_indicators_crew_range_enabled = true;
 force diwako_dui_indicators_range_crew = 60;
 force diwako_dui_indicators_range = 20;
 force diwako_dui_indicators_useACENametagsRange = false;
+
+// LAxemann's Suppress
+force L_Suppress_buildup = 0.5;
+force L_Suppress_intensity = 0.75;
+force L_Suppress_enabled = true;
+force L_Suppress_recovery = 1.75;
+force L_Suppress_flyByEffects = true;
+force L_Suppress_flyByIntensity = 1;
+force L_Suppress_halting = false;
+force L_Suppress_playerSwabEnabled = true;
+
