@@ -198,3 +198,27 @@ afm_spectator_allowUnconscious = true;
 
 // ArmaForces - Tagging
 afm_tagging_enabled = true;
+
+// DUI - Squad Radar - Nametags
+force diwako_dui_nametags_deadRenderDistance = 4;
+force diwako_dui_nametags_drawRank = false;
+force diwako_dui_nametags_enableFOVBoost = false;
+force diwako_dui_nametags_enableOcclusion = true;
+force diwako_dui_nametags_renderDistance = 40;
+force diwako_dui_nametags_showUnconAsDead = true;
+
+// DUI - Squad Radar - Radar
+force diwako_dui_compassRange = 35;
+force diwako_dui_enable_occlusion = true;
+force diwako_dui_enable_occlusion_cone = 360;
+force diwako_dui_radar_icon_scale_crew = 3;
+force diwako_dui_radar_vehicleCompassEnabled = true;
+force diwako_dui_radar_compassRangeCrew = 125;
+force diwako_dui_radar_sortType = "fireteam2";
+force diwako_dui_radar_sqlFirst = true;
+
+// DUI - Squad Radar - Indicators
+force diwako_dui_indicators_crew_range_enabled = true;
+force diwako_dui_indicators_range_crew = 60;
+force diwako_dui_indicators_range = 20;
+force diwako_dui_indicators_useACENametagsRange = false;
