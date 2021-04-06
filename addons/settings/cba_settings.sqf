@@ -123,3 +123,78 @@ AGC_bodyType = "body";
 AGC_GCmaxBodyTime = 1200;
 AGC_GCminDistance = 100;
 AGC_removeItems = 35;
+
+// ArmaForces - ACRE
+afm_acre_enabled = true;
+// ArmaForces - ACRE - Civ Channels
+afm_acre_CIVChannelName1 = "ALPHA";
+afm_acre_CIVChannelName2 = "BRAVO";
+afm_acre_CIVChannelName3 = "CHARLIE";
+afm_acre_CIVChannelName4 = "---------";
+afm_acre_CIVChannelName5 = "DOW_PIECH";
+afm_acre_CIVChannelName6 = "DOW_WSP";
+afm_acre_CIVChannelName7 = "---------";
+afm_acre_CIVChannelName8 = "DOW_POW";
+afm_acre_CIVChannelName9 = "---------";
+afm_acre_CIVChannelName10 = "CROSSROADS";
+// ArmaForces - ACRE - East Channels
+afm_acre_EASTChannelName1 = "ALPHA";
+afm_acre_EASTChannelName2 = "BRAVO";
+afm_acre_EASTChannelName3 = "CHARLIE";
+afm_acre_EASTChannelName4 = "---------";
+afm_acre_EASTChannelName5 = "DOW_PIECH";
+afm_acre_EASTChannelName6 = "DOW_WSP";
+afm_acre_EASTChannelName7 = "---------";
+afm_acre_EASTChannelName8 = "DOW_POW";
+afm_acre_EASTChannelName9 = "---------";
+afm_acre_EASTChannelName10 = "CROSSROADS";
+// ArmaForces - ACRE - Guer Channels
+afm_acre_GUERChannelName1 = "ALPHA";
+afm_acre_GUERChannelName2 = "BRAVO";
+afm_acre_GUERChannelName3 = "CHARLIE";
+afm_acre_GUERChannelName4 = "---------";
+afm_acre_GUERChannelName5 = "DOW_PIECH";
+afm_acre_GUERChannelName6 = "DOW_WSP";
+afm_acre_GUERChannelName7 = "---------";
+afm_acre_GUERChannelName8 = "DOW_POW";
+afm_acre_GUERChannelName9 = "---------";
+afm_acre_GUERChannelName10 = "CROSSROADS";
+// ArmaForces - ACRE - West Channels
+afm_acre_WESTChannelName1 = "ALPHA";
+afm_acre_WESTChannelName2 = "BRAVO";
+afm_acre_WESTChannelName3 = "CHARLIE";
+afm_acre_WESTChannelName4 = "---------";
+afm_acre_WESTChannelName5 = "DOW_PIECH";
+afm_acre_WESTChannelName6 = "DOW_WSP";
+afm_acre_WESTChannelName7 = "---------";
+afm_acre_WESTChannelName8 = "DOW_POW";
+afm_acre_WESTChannelName9 = "---------";
+afm_acre_WESTChannelName10 = "CROSSROADS";
+
+// ArmaForces - AI Disembark
+afm_ai_disembark_enabled = true;
+afm_ai_disembark_stayInImmobileChance = 0.5;
+
+// ArmaForces - Back To Game
+afm_back_to_game_enableAddon = true;
+
+// ArmaForces - Fatigue
+afm_fatigue_highJogCoefEnabled = true;
+afm_fatigue_highJogCoef = 0.85;
+
+// ArmaForces - Friendly Fire
+force force afm_friendly_fire_loggingEnabled = true;
+
+// ArmaForces - Remote Sensors
+force afm_remotesensors_enabled = false;
+
+// ArmaForces - Spectator
+afm_spectator_enabled = true;
+afm_spectator_sides = 2;
+afm_spectator_allowAI = true;
+afm_spectator_freeCamera = true;
+afm_spectator_TPPCamera = true;
+afm_spectator_allowUnconscious = true;
+
+// ArmaForces - Tagging
+afm_tagging_enabled = true;
