@@ -96,3 +96,12 @@ ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 // ACE Zeus
 ace_zeus_canCreateZeus = 1;
 
+// ACEX Fortify
+force acex_fortify_settingHint = 1;
+
+// ACEX Headless
+acex_headless_delay = 30;
+acex_headless_enabled = true;
+
+// ACEX Sitting
+acex_sitting_enable = true;
