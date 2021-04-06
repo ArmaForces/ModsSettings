@@ -117,3 +117,9 @@ acre_sys_core_ts3ChannelName = "Gramy";
 acre_sys_core_ts3ChannelSwitch = true;
 acre_sys_core_unmuteClients = true;
 acre_sys_signal_signalModel = 0;
+
+// Advanced Garbage Collector
+AGC_bodyType = "body";
+AGC_GCmaxBodyTime = 1200;
+AGC_GCminDistance = 100;
+AGC_removeItems = 35;
