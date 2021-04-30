@@ -246,3 +246,11 @@ force MAI_enableAimPenalty = false;
 
 // MAI - AI skill
 force MAI_AiBonusMags = 50;
+
+// LAMBS Main
+force lambs_main_indoorMove = 0.25;
+force lambs_main_radioBackpack = 500;
+force lambs_main_radioEast = 200;
+force lambs_main_radioGuer = 200;
+force lambs_main_radioWest = 200;
+
