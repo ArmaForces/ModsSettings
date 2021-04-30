@@ -233,3 +233,8 @@ force L_Suppress_flyByIntensity = 1;
 force L_Suppress_halting = false;
 force L_Suppress_playerSwabEnabled = true;
 
+// AIME, disable vehicle change seat actions as they overlap with QuickMount and allow to switch between compartments
+force UPSL_aime_vehicle_seats_setting_change_action = false;
+// AIME, disable static assemble/disassemble as this conflicts with ACE CSW
+force UPSL_aime_inventory_setting_assemble_action = false;
+
