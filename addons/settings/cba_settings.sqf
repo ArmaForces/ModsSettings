@@ -47,7 +47,7 @@ ace_map_DefaultChannel = 1;
 
 // ACE Medical
 ace_medical_ai_enabledFor = 1;
-ace_medical_AIDamageThreshold = 0.2;
+ace_medical_AIDamageThreshold = 0.3;
 ace_medical_bleedingCoefficient = 0.25;
 ace_medical_fatalDamageSource = 1;
 ace_medical_feedback_bloodVolumeEffectType = 2;
@@ -55,7 +55,7 @@ ace_medical_feedback_painEffectType = 0;
 ace_medical_fractureChance = 0.5;
 ace_medical_fractures = 0;
 ace_medical_painCoefficient = 0.8;
-ace_medical_playerDamageThreshold = 3.5;
+ace_medical_playerDamageThreshold = 2.5;
 ace_medical_spontaneousWakeUpChance = 0.85;
 ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
 ace_medical_statemachine_cardiacArrestTime = 630;
