@@ -238,3 +238,8 @@ force UPSL_aime_vehicle_seats_setting_change_action = false;
 // AIME, disable static assemble/disassemble as this conflicts with ACE CSW
 force UPSL_aime_inventory_setting_assemble_action = false;
 
+// MAI
+force MAI_AiEnable = false;
+force MAI_useRadio = false;
+force MAI_AiSkillAdjust = false;
+force MAI_enableAimPenalty = false;
