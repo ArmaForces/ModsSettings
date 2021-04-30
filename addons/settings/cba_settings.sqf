@@ -243,3 +243,6 @@ force MAI_AiEnable = false;
 force MAI_useRadio = false;
 force MAI_AiSkillAdjust = false;
 force MAI_enableAimPenalty = false;
+
+// MAI - AI skill
+force MAI_AiBonusMags = 50;
