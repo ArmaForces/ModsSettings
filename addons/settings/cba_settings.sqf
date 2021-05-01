@@ -254,3 +254,8 @@ force lambs_main_radioEast = 200;
 force lambs_main_radioGuer = 200;
 force lambs_main_radioWest = 200;
 
+// Simple Suppress
+force simplesuppress_main_overlayFadeoutTime = 8;
+force simplesuppress_main_overlayOpacity = 0.8;
+force simplesuppress_main_projectileMaxDistance = 9;
+force simplesuppress_main_shooterMinDistance = 25;
