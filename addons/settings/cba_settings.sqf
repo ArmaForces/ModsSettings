@@ -77,6 +77,7 @@ ace_finger_maxRange = 5;
 ace_respawn_removeDeadBodiesDisconnected = false;
 
 // ACE Hearing
+ace_hearing_enableCombatDeafness = false;
 ace_hearing_autoAddEarplugsToUnits = false;
 ace_hearing_disableEarRinging = true;
 
