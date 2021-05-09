@@ -249,7 +249,7 @@ force MAI_enableAimPenalty = false;
 force MAI_AiBonusMags = 50;
 
 // LAMBS Danger
-lambs_danger_disableAIHideFromTanksAndAircraft = true;
+force lambs_danger_disableAIHideFromTanksAndAircraft = true;
 
 // LAMBS Main
 force lambs_main_indoorMove = 0.25;
