@@ -248,6 +248,9 @@ force MAI_enableAimPenalty = false;
 // MAI - AI skill
 force MAI_AiBonusMags = 50;
 
+// LAMBS Danger
+lambs_danger_disableAIHideFromTanksAndAircraft = true;
+
 // LAMBS Main
 force lambs_main_indoorMove = 0.25;
 force lambs_main_radioBackpack = 500;
