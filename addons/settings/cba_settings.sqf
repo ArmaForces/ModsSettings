@@ -116,6 +116,8 @@ acre_sys_core_revealToAI = 0.5;
 acre_sys_core_terrainLoss = 0.25;
 acre_sys_core_ts3ChannelName = "Gramy";
 acre_sys_core_ts3ChannelSwitch = true;
+acre_sys_core_voipChannelName = "Gramy";
+acre_sys_core_voipChannelSwitch = true;
 acre_sys_core_unmuteClients = true;
 acre_sys_signal_signalModel = 0;
 
