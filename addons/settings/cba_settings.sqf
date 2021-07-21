@@ -66,6 +66,14 @@ ace_medical_treatment_allowSharedEquipment = 1;
 ace_medical_treatment_clearTraumaAfterBandage = true;
 ace_medical_treatment_locationSurgicalKit = 0;
 
+// ACE Nightvision
+force ace_nightvision_aimDownSightsBlur = 0.1;
+force ace_nightvision_disableNVGsWithSights = false;
+force ace_nightvision_effectScaling = 0.6;
+force ace_nightvision_fogScaling = 0.3;
+force ace_nightvision_noiseScaling = 0.6;
+ace_nightvision_shutterEffects = true;
+
 // ACE Weather
 ace_weather_enabled = false;
 
