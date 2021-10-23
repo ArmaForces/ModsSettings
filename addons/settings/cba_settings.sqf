@@ -95,6 +95,9 @@ ace_frag_reflectionsEnabled  = true;
 // ACE Name Tags
 ace_nametags_playerNamesViewDistance = 10;
 
+// ACE Overheating
+force ace_overheating_cookoffCoef = 1.5;
+
 // ACE Vehicle Lock
 ace_vehiclelock_lockVehicleInventory = true;
 
