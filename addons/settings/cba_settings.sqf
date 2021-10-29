@@ -105,6 +105,9 @@ ace_vehiclelock_lockVehicleInventory = true;
 ace_advanced_ballistics_ammoTemperatureEnabled = false;
 ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 
+// ACE Uncategorized
+ace_overpressure_distanceCoefficient = 1;
+
 // ACE Zeus
 ace_zeus_canCreateZeus = 1;
 
