@@ -20,7 +20,7 @@ force ace_parachute_hideAltimeter = true;
 
 // ACE Cook off
 ace_cookoff_ammoCookoffDuration = 0.1;
-ace_cookoff_enable = 1;
+ace_cookoff_enable = 2;
 
 // ACE Crew Served Weapons
 ace_csw_ammoHandling = 1;
