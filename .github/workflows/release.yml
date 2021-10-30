@@ -8,6 +8,8 @@ on:
   push:
     branches:
     - master
+    paths:
+    - addons/**
 
 jobs:
   build_addon:
