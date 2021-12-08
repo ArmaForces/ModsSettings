@@ -64,6 +64,7 @@ ace_medical_spontaneousWakeUpEpinephrineBoost = 3;
 ace_medical_statemachine_cardiacArrestTime = 315;
 ace_medical_statemachine_fatalInjuriesPlayer = 1;
 ace_medical_treatment_advancedBandages = 2;
+ace_medical_treatment_advancedDiagnose = 2;
 ace_medical_treatment_allowSelfStitch = 1;
 ace_medical_treatment_allowSharedEquipment = 1;
 ace_medical_treatment_clearTraumaAfterBandage = true;
