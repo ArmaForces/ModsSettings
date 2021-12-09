@@ -261,6 +261,7 @@ force UPSL_aime_inventory_setting_assemble_action = false;
 
 // MAI
 force MAI_AiEnable = false;
+force MAI_editWaypoints = false;
 force MAI_useRadio = false;
 force MAI_AiSkillAdjust = false;
 force MAI_enableAimPenalty = false;
