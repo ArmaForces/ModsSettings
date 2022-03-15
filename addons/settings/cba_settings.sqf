@@ -7,6 +7,7 @@ ace_advanced_fatigue_swayFactor = 0.9;
 
 // ACE Advanced Vehicle Damage
 ace_vehicle_damage_enabled = false;
+ace_vehicle_damage_enableCarDamage = true;
 
 // ACE Captives
 ace_captives_requireSurrender = 2;
