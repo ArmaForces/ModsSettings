@@ -121,7 +121,7 @@ force acex_fortify_settingHint = 1;
 
 // ACEX Headless
 acex_headless_delay = 30;
-acex_headless_enabled = true;
+acex_headless_enabled = false;
 
 // ACEX Sitting
 acex_sitting_enable = true;
