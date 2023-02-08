@@ -221,6 +221,9 @@ afm_spectator_allowUnconscious = true;
 // ArmaForces - Tagging
 afm_tagging_enabled = true;
 
+// CUP - Vehicles
+force CUP_Vehicles_PreventBarrelClip = false;
+
 // DUI - Squad Radar - Nametags
 force diwako_dui_nametags_deadRenderDistance = 4;
 force diwako_dui_nametags_drawRank = false;
