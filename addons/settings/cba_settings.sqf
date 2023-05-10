@@ -40,6 +40,8 @@ ace_rearm_level = 1;
 ace_refuel_hoseLength = 15;
 ace_refuel_rate = 1.2;
 ace_repair_repairDamageThreshold = 0.75;
+ace_repair_engineerSetting_fullRepair = 0;
+ace_repair_fullRepairLocation = 3;
 
 // ACE Mag Repack
 ace_magazinerepack_timePerAmmo = 1.3;
