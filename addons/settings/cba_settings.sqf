@@ -72,6 +72,7 @@ ace_medical_treatment_allowSelfStitch = 1;
 ace_medical_treatment_allowSharedEquipment = 1;
 ace_medical_treatment_clearTraumaAfterBandage = true;
 ace_medical_treatment_locationSurgicalKit = 0;
+ace_medical_treatment_allowGraveDigging = 0;
 
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 0.1;
