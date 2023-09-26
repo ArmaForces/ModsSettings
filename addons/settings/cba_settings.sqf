@@ -27,6 +27,9 @@ ace_cookoff_enable = 2;
 ace_csw_ammoHandling = 1;
 ace_csw_progressBarTimeCoefficent = 0.4;
 
+// ACE Fastroping
+ace_fastroping_autoAddFRIES = true;
+
 // ACE G-Forces
 ace_gforces_coef = 0.7;
 
