@@ -271,6 +271,7 @@ force force OCAP_settings_saveOnEmpty = false;
 force force OCAP_settings_saveTag = "AF";
 force force OCAP_settings_trackTimeInterval = 30;
 force force OCAP_settings_trackTimes = true;
+force force OCAP_settings_excludeMarkerFromRecord = "['SystemMarker_','ACE_BFT_', 'afft_', 'player_marker_']";
 
 // AIME, disable vehicle change seat actions as they overlap with QuickMount and allow to switch between compartments
 force UPSL_aime_vehicle_seats_setting_change_action = false;
