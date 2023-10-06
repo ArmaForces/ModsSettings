@@ -264,6 +264,15 @@ force L_Suppress_flyByIntensity = 1;
 force L_Suppress_halting = false;
 force L_Suppress_playerSwabEnabled = true;
 
+// OCAP - Recorder
+force force OCAP_settings_minMissionTime = 30;
+force force OCAP_settings_minPlayerCount = 5;
+force force OCAP_settings_saveOnEmpty = false;
+force force OCAP_settings_saveTag = "AF";
+force force OCAP_settings_trackTimeInterval = 30;
+force force OCAP_settings_trackTimes = true;
+force force OCAP_settings_excludeMarkerFromRecord = "['SystemMarker_','ACE_BFT_', 'afft_', 'player_marker_']";
+
 // AIME, disable vehicle change seat actions as they overlap with QuickMount and allow to switch between compartments
 force UPSL_aime_vehicle_seats_setting_change_action = false;
 // AIME, disable static assemble/disassemble as this conflicts with ACE CSW
