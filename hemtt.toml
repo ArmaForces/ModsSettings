@@ -4,6 +4,7 @@ author = "ArmaForces"
 files = [
     "LICENSE",
     "mod.cpp",
+    "meta.cpp",
     "README.md"
 ]
 
