@@ -16,3 +16,6 @@ class CfgPatches {
     // https://github.com/CBATeam/CBA_A3/blob/e48c270da63574368c7a8f553ea64a29a339d40d/addons/settings/fnc_initDisplayMain.sqf#L8
     class cba_settings_userconfig: ADDON {};
 };
+
+// Prevents setting changes from persisting between server restarts
+cba_settings_volatile = 1;
