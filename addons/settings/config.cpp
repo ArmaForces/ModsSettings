@@ -17,5 +17,9 @@ class CfgPatches {
     class cba_settings_userconfig: ADDON {};
 };
 
-// Prevents setting changes from persisting between server restarts
+// Remove after CBA 3.16.1
+#include "CfgEventHandlers.hpp"
+
+// Prevents setting changes from persisting between server restarts on dedicated server
+// Needs CBA 3.16.1
 cba_settings_volatile = 1;
