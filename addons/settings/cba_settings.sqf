@@ -85,6 +85,9 @@ force ace_nightvision_fogScaling = 0;
 force ace_nightvision_noiseScaling = 0.1;
 ace_nightvision_shutterEffects = true;
 
+// ACE Towing
+ace_towing_addRopeToVehicleInventory = false;
+
 // ACE Weather
 ace_weather_enabled = false;
 
