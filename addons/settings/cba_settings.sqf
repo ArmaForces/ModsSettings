@@ -42,9 +42,6 @@ ace_cargo_paradropTimeCoefficent = 0.5;
 ace_rearm_level = 1;
 ace_refuel_hoseLength = 15;
 ace_refuel_rate = 1.2;
-ace_repair_repairDamageThreshold = 0.75;
-ace_repair_engineerSetting_fullRepair = 0;
-ace_repair_fullRepairLocation = 3;
 
 // ACE Mag Repack
 ace_magazinerepack_timePerAmmo = 1.3;
@@ -94,6 +91,12 @@ ace_weather_enabled = false;
 // ACE Pointing
 ace_finger_enabled = true;
 ace_finger_maxRange = 5;
+
+// ACE Repair
+ace_repair_repairDamageThreshold = 0.75;
+ace_repair_engineerSetting_fullRepair = 0;
+ace_repair_fullRepairLocation = 3;
+ace_repair_timeCoefficientFullRepair = 0.4;
 
 // ACE Respawn
 ace_respawn_removeDeadBodiesDisconnected = false;
