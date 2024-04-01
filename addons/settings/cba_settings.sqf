@@ -74,6 +74,7 @@ ace_medical_treatment_clearTraumaAfterBandage = true;
 ace_medical_treatment_locationSurgicalKit = 0;
 ace_medical_treatment_allowGraveDigging = 0;
 ace_medical_gui_showDamageEntry = true;
+ace_medical_vitals_simulateSpO2 = false;
 
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 0.1;
