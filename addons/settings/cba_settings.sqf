@@ -234,6 +234,7 @@ afm_spectator_allowAI = true;
 afm_spectator_freeCamera = true;
 afm_spectator_TPPCamera = true;
 afm_spectator_allowUnconscious = true;
+afm_spectator_unconsciousDelay = 90;
 
 // ArmaForces - Tagging
 afm_tagging_enabled = true;
