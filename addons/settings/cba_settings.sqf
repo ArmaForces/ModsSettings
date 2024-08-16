@@ -235,6 +235,7 @@ afm_spectator_freeCamera = true;
 afm_spectator_TPPCamera = true;
 afm_spectator_allowUnconscious = true;
 afm_spectator_unconsciousDelay = 90;
+afm_spectator_sidesUnconscious = 3; // 3 - Player group only
 
 // ArmaForces - Tagging
 afm_tagging_enabled = true;
