@@ -215,7 +215,7 @@ afm_ai_disembark_stayInImmobileChance = 0.5;
 afm_back_to_game_enableAddon = true;
 
 // ArmaForces - Chat
-afm_chat_allowGlobalChat = false;
+force afm_chat_allowGlobalChat = false;
 
 // ArmaForces - Fatigue
 afm_fatigue_highJogCoefEnabled = true;
