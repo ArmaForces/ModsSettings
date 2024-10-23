@@ -319,3 +319,4 @@ force simplesuppress_main_overlayFadeoutTime = 8;
 force simplesuppress_main_overlayOpacity = 0.8;
 force simplesuppress_main_projectileMaxDistance = 9;
 force simplesuppress_main_shooterMinDistance = 25;
+
