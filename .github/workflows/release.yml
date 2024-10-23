@@ -19,7 +19,7 @@ jobs:
       # run: echo VERSION=${GITHUB_REF:11} >> $GITHUB_ENV
       run: echo VERSION=0.0.0 >> $GITHUB_ENV
 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Build addon with HEMTT
       uses: 16AAModTeam/hemtt@stable
@@ -40,7 +40,7 @@ jobs:
     - name: Set VERSION env
       run: echo VERSION=0.0.0 >> $GITHUB_ENV
 
-    - uses: actions/download-artifact@v2
+    - uses: actions/download-artifact@v4
       with:
         name: releases
 
