@@ -90,6 +90,9 @@ ace_towing_addRopeToVehicleInventory = false;
 // ACE Weather
 ace_weather_enabled = false;
 
+// ACE View Distance Limiter
+force ace_viewdistance_enabled = false;
+
 // ACE Pointing
 ace_finger_enabled = true;
 ace_finger_maxRange = 5;
